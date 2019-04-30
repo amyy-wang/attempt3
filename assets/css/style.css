@@ -1,0 +1,294 @@
+
+body{
+	background: #FAFAFA;
+	color: #444444;
+	font-family: avenir;
+	margin: 0;
+}
+
+div{
+	margin: 0;
+}
+
+a {
+color: #CFCBCA;
+  text-decoration: none; /* no underline */
+}
+
+a:hover{
+	color: #A52934;
+ 	cursor: pointer;
+
+}
+/*photography css*/
+
+#wholecontainer{
+	display: flex;
+	flex-direction: column;
+
+}
+
+#top{
+	display: flex;
+	flex-direction: column;
+	height: 30vh;
+}
+#bottom{
+	height: 70vh;
+}
+
+#photographyheader{
+	font-size: 50px;
+	font-family: 'Lato', sans-serif;
+	margin-left: 55px;
+	margin-top: 20px;
+	letter-spacing: 4px;
+
+ }
+
+#colorrow{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#lightblue{
+	height: 50px;
+	width: 50px;
+	background-color: #62BDD8;
+	border-radius: 50%;
+	margin: 30px;
+}
+#lightblue:hover {
+	cursor:pointer;
+}
+
+#night{
+	height: 50px;
+	width: 50px;
+	background-color: #09152C;
+	border-radius: 50%;
+	margin: 30px;
+}
+
+#night:hover {
+	cursor:pointer;
+}
+
+#brown{
+	height: 50px;
+	width: 50px;
+	background-color: #B17E5F;
+	border-radius: 50%;
+	margin: 30px;
+}
+#brown:hover {
+	cursor: pointer;
+}
+
+#bottom{
+	display: flex;
+	flex-direction: column;
+	background-color: #09152C;
+	padding: 50px;
+}
+#photoheader{
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+	font-size: 20px;
+}
+#photoheader1{
+	color: white;
+	font-size: 25px;
+}
+#photoheader2{
+	margin-left: 5px;
+	color: #E03284;
+	font-size: 25px;
+
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+}
+.horizontal{
+ 
+	height: 300px;
+ 
+}
+.vertical{
+	width: 300px;
+}
+.photo{
+	height: 300px;
+ 	width: 300px;
+ 	overflow: hidden;
+ 	margin: 10px;
+ 	border-width: 5px;
+ 	border-style: solid;
+ 	border-color: white;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+  }
+
+/*homepagecss*/
+#entirecontainer{
+	background-image: url("../images/watercolor.png");
+	background-position: center center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: row;
+ }
+ #leftnav{
+ 	display: flex;
+ 	flex-direction: row;
+ 	align-items: center;
+ 	justify-content: center;
+  	width: 50px;
+ 	font-size: 50px;
+ 	margin: 30px;
+  transform: rotate(90deg);
+  }
+
+ #rightnav{
+ 	display: flex;
+ 	flex-direction: row;
+ 	align-items: center;
+ 	justify-content: center;
+  	width: 50px;
+ 	font-size: 50px;
+ 	 margin: 30px;
+
+   transform: rotate(-90deg);
+ }
+
+#body{
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	width: 100vw;
+	justify-content: space-evenly;
+}
+
+#propic{
+	height: 650px;
+ }
+
+ #text {
+ 	align-self: center;
+ 	color: #A52934;
+
+ }
+
+#name{
+	background-color: white;
+	border-radius: 3%;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 50px;
+	color: #A52934;
+	font-family: 'Satisfy', cursive;
+	letter-spacing: 2px;
+ }
+#profile{
+	align-self: flex-end;
+}
+.navbar{
+	font-size: 20px;
+
+}
+#aboutme{
+	color: white;
+	font-size: 20px;
+	letter-spacing: 5px;
+	height: 30px;
+	display: block;
+}
+
+
+
+/*projects css*/
+#entireprojectscontainer{
+	display: flex;
+	flex-direction: row;
+}
+#overallprojects{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+ 	background-color: #FAFAFA; 
+	padding: 20px;
+	box-shadow: 2.5px 2.5px 1.25px #E8E8E8;
+	padding: 0px;
+ }
+#projectsheader{
+	font-size: 50px;
+	font-family: 'Lato', sans-serif;
+	margin-left: 55px;
+	margin-top: 20px;
+ 
+}
+#projectscontainer{
+	display: flex;
+	flex-direction: row;
+   }
+
+.column{
+	display: flex;
+	flex-direction: column;
+}
+.project{
+   	height: 400px;
+ 	width: 500px;
+ 	margin: 30px;
+  	box-shadow: 2.5px 2.5px 1.25px #E8E8E8;
+  	background: white;
+  	border-radius: 2% ;
+  	overflow: hidden;
+  }
+
+#projectimage1{
+   	height: 60%;
+ 	width: 100%;
+ 	background-image: url("../images/berkeley.jpg");
+    background-size: cover;
+  }
+  #projectimage2{
+   	height: 60%;
+ 	width: 100%;
+ 	background-image: url("../images/reach.jpg");
+    background-size: cover;
+  }
+
+  #projectimage3{
+   	height: 60%;
+ 	width: 100%;
+ 	background-image: url("../images/180.JPG");
+    background-size: cover;
+  }
+  #projectimage4{
+   	height: 60%;
+ 	width: 100%;
+ 	background-image: url("../images/deca.jpg");
+    background-size: cover;
+  }
+
+.projecttext{
+	margin: 15px;
+ }
+ .projectname{
+ 	font-size: 30px;
+ 	letter-spacing:2.5px;
+   }
+ .projectsummary{
+ 	margin-top: 5px;
+ 	letter-spacing: 1px;
+ 	font-size: 15px;
+  }
+
+
